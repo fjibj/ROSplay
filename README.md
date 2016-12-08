@@ -31,7 +31,7 @@ $ rostopic echo /xfwords
 
 $ roslaunch rbx1_bringup fake_turtlebot.launch
 
-$ rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz
+$ rosrun rviz rviz -d \`rospack find rbx1_nav\`/sim.rviz
 
 运行voice_nav节点
 
