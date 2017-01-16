@@ -63,3 +63,10 @@ $ rosrun image_view image_view image:=/camera/rgb/image_color
 
 终端4
 $ rosrun rbx1_vision cv_bridge_demo.py
+
+
+3、人脸识别
+
+$ roslaunch rbx1_vision face_tracker.launch
+
+参看效果图： 人脸识别.jpg 
