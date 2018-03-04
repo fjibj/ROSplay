@@ -18,7 +18,7 @@ ROS版本：hydro
 
 参考：http://blog.csdn.net/zhouge94/article/details/52333908
 
-新开终端1
+新开终端1(CTRL+ALT+T)
 
 $ roscore 
 
