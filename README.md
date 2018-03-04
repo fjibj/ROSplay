@@ -5,7 +5,7 @@ ROS机器人学习、创作
 零、基础环境
 
 Virtualbox5.2.8
-虚拟机： 4G内存、开启硬件加速
+虚拟机： >4G内存、开启硬件加速
 操作系统：Ubuntu 12.04.1 LTS 桌面版
 ROS版本：hydro
 
@@ -38,11 +38,17 @@ $ rostopic echo /xfwords
 
 启动模拟器
 
+新开终端6：
+
 $ roslaunch rbx1_bringup fake_turtlebot.launch
+
+新开终端7：
 
 $ rosrun rviz rviz -d \`rospack find rbx1_nav\`/sim.rviz
 
 运行voice_nav节点
+
+新开终端9：
 
 $ roslaunch xf_voice_robot turtlebot_voice_nav.launch
 
