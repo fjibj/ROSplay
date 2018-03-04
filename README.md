@@ -26,7 +26,7 @@ $ roscore
 
 $ rosrun xf_voice_robot record_speak
 
-新开终端3：（xfspeech主题是录音专成的文字）
+新开终端3：（xfspeech主题是录音转成的文字）
 
 $ rostopic echo /xfspeech
 
