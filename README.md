@@ -25,44 +25,81 @@ ROS版本：hydro
 
 代码结构：
 ├── CMakeLists.txt
+
 ├── include
+
 │   ├── formats.h
+
 │   ├── linuxrec.h
+
 │   ├── msp_cmn.h
+
 │   ├── msp_errors.h
+
 │   ├── msp_types.h
+
 │   ├── qisr.h
+
 │   ├── qtts.h
+
 │   ├── speech_recognizer.h
+
 │   └── xf_voice_robot
+
 ├── msc
+
 │   ├── f0d5bd0f211933e7aad71ef72578125d
+
 │   └── msc.cfg
+
 ├── package.xml
+
 ├── src
+
 │   ├── asr_sample.c
-│   ├── asr_sample.c~
+
 │   ├── gm_continuous_digit.abnf
+
 │   ├── iat_publish_speak.cpp
+
 │   ├── iat_record.c
+
 │   ├── iat_sample.c
+
 │   ├── linuxrec.c
+
 │   ├── msc
+
 │   │   ├── f0d5bd0f211933e7aad71ef72578125d
+
 │   │   │   ├── u.data
+
 │   │   │   └── urec.data
+
 │   │   └── msc.cfg
+
 │   ├── my_voice_nav.py
+
 │   ├── record_speak.cpp
+
 │   ├── sch_speak.c
+
 │   ├── sch_text.c
+
 │   ├── source.txt
+
 │   ├── speech_recognizer.c
+
 │   ├── tts_sample.c
+
 │   ├── tts_sample.wav
+
 │   ├── tts_subscribe_speak.cpp
+
 │   └── userwords.txt
+
 └── turtlebot_voice_nav.launch
+
 
 编译：
 
