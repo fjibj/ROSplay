@@ -24,6 +24,7 @@ ROS版本：hydro
 下载xf_voice_robot目录到~/下
 
 代码结构：
+
 ├── CMakeLists.txt
 
 ├── include
@@ -157,22 +158,29 @@ $ roslaunch xf_voice_robot turtlebot_voice_nav.launch
 Android手机安装DroidCam
 
 在unbuntu12.04上采用以下方式读取摄像头视频流
+
 video = "http://192.168.1.101:4747/mjpegfeed?.mjpg"
+
 cap = cv2.VideoCapture(video)
+
 请参考testCam.py
    
 2、使用
 
 终端1
+
 $ roscore
 
 终端2
+
 $ roslaunch rbx1_vision video2ros.launch input:="http://192.168.1.101:4747/mjpegfeed?.mjpg"
 
 终端3
+
 $ rosrun image_view image_view image:=/camera/rgb/image_color
 
 终端4
+
 $ rosrun rbx1_vision cv_bridge_demo.py
 
 
