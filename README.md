@@ -48,7 +48,7 @@ $ rosrun rviz rviz -d \`rospack find rbx1_nav\`/sim.rviz
 
 运行voice_nav节点
 
-新开终端9：
+新开终端8：
 
 $ roslaunch xf_voice_robot turtlebot_voice_nav.launch
 
