@@ -1,5 +1,14 @@
 # ROSplay
+
 ROS机器人学习、创作
+
+零、基础环境
+
+Virtualbox5.2.8
+虚拟机： 4G内存、开启硬件加速
+操作系统：Ubuntu 12.04.1 LTS 桌面版
+ROS版本：hydro
+
 
 一、xf_voice_speak 中文语音控制机器人运动
 
