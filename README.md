@@ -6,7 +6,7 @@ ROS机器人学习、创作
 
 Virtualbox5.2.8
 
-虚拟机： >4G内存、开启硬件加速、声音（主机音频驱动：Windows DirectSound、控制芯片：Intel HD 音频）
+虚拟机： >4G内存、开启硬件加速、声音（支持输入、输出）
 
 操作系统：Ubuntu 12.04.1 LTS 桌面版
 
