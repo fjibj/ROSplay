@@ -109,6 +109,7 @@ $ cd ~/catkin_ws/
 $ cp -R xf_voice_robot  ~/catkin_ws/src/
 
 $ cd ~/catkin_ws/
+
 $ catkin_make
 
 新开终端1(CTRL+ALT+T)
