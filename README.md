@@ -122,7 +122,7 @@ $ cd ~/catkin_ws/
 
 $ roscd xf_voice_robot/src  （所有的rosrun要在源目录执行，因为一些相对路径的目录在src目录下！！）
 
-$ rosrun xf_voice_robot record_speak
+$ rosrun xf_voice_robot record_speak (！！考虑到科大讯飞SDK接口有日访问500次的限制，这条命令可以放在所有终端命令都执行完之后再执行^_^ )
 
 新开终端3：（xfspeech主题是录音转成的文字）
 
@@ -149,6 +149,12 @@ $ rosrun rviz rviz -d \`rospack find rbx1_nav\`/sim.rviz
 新开终端8：
 
 $ roslaunch xf_voice_robot turtlebot_voice_nav.launch
+
+注：（1）要保证网络畅通，因为要访问科大讯飞SDK接口
+
+    （2）声音环境，即录音、播放都要正常
+    
+    （3）由于科大讯飞SDK接口有日访问总量限制，调用接口的命令尽量只在使用时才执行（看上面步骤中的注释），不使用了尽量关闭
 
 二、机器人视觉
 
