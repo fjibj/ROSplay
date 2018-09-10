@@ -13,7 +13,7 @@ Virtualbox5.2.8
 ROS版本：hydro
 
 
-一、xf_voice_speak 中文语音控制机器人运动
+# 一、xf_voice_speak 中文语音控制机器人运动
 
 思路：先把语音转换成文字，然后文字与动作对应，动作再驱动机器人运动
 
@@ -156,7 +156,7 @@ $ roslaunch xf_voice_robot turtlebot_voice_nav.launch
     
     （3）由于科大讯飞SDK接口有日访问总量限制，调用接口的命令尽量只在使用时才执行（看上面步骤中的注释），不使用了尽量关闭
 
-二、机器人视觉
+# 二、机器人视觉
 
 由于没有摄像头设备，故采用手机模拟摄像头。
 
