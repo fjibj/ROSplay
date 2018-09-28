@@ -195,4 +195,6 @@ $ rosrun rbx1_vision cv_bridge_demo.py
 
 $ roslaunch rbx1_vision face_tracker.launch
 
-参看效果图： 人脸识别.jpg 
+参看效果图：  
+<img src="人脸识别.jpg">
+
