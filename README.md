@@ -198,3 +198,13 @@ $ roslaunch rbx1_vision face_tracker.launch
 参看效果图：  
 <img src="人脸识别.jpg">
 
+4、头部跟踪
+
+将head-pose-estimation功能加入，
+
+参考： https://github.com/fjibj/head-pose-estimation
+
+效果图：
+<img src="头部跟踪.jpg">
+
+
