@@ -174,6 +174,8 @@ cap = cv2.VideoCapture(video)
    
 2、使用
 
+参考 https://github.com/fjibj/rbx1
+
 终端1
 
 $ roscore
