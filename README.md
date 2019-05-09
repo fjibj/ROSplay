@@ -210,4 +210,14 @@ $ roslaunch rbx1_vision face_tracker.launch
 
 <img src="头部跟踪.jpg">
 
+5、人脸检测及修饰
+
+实时检测人脸，并给脸部戴上墨镜和叼上烟卷
+
+参考： https://github.com/fjibj/face-detection-induction-course
+
+效果图：
+
+<img src="mjyd.jpg">
+
 
