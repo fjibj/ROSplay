@@ -1,6 +1,6 @@
 scratch-backplane本地环境搭建
 
-<img src="https://mryslab.github.io/s3-extend/images/s3onegpio.png">
+![架构图](https://mryslab.github.io/s3-extend/images/s3onegpio.png)
 
 （1）scratch部分
 
